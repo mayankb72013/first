@@ -9,3 +9,6 @@ To enable tracking for an entire folder 'git add .'
 
 after making the changes if we type 'git diff' we get to see the changes made in the file with respect to the original file.
 
+'git log' allows us to know all the changes we have made in the codebase.
+
+'git log --oneline' shortens the commit id and the entire response of the 'git log'
