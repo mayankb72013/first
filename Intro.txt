@@ -1,0 +1,11 @@
+First we used a command --  git init 
+this has initialized the folder with git and now the version control system is enabled
+
+All the configurations are stored in the .git/ folder which is a hidden folder and can be seen if we type 'ls -la' in the bash terminal.
+
+To enable the tracking for a file 'git add <filepath>'
+
+To enable tracking for an entire folder 'git add .'
+
+after making the changes if we type 'git diff' we get to see the changes made in the file with respect to the original file.
+
