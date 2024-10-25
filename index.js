@@ -6,6 +6,5 @@ function print(){
     console.log(`${names}`);
 }
 function msg(){
-    console.log(`This is just another message`);
-    
+    console.log(`This is just another message`);  
 }
