@@ -8,3 +8,7 @@ function print(){
 function msg(){
     console.log(`This is just another message`);  
 }
+
+function above18(){
+    console.log(`is above 18`);
+}
