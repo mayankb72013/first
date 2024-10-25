@@ -17,11 +17,13 @@ after making the changes if we type 'git diff' we get to see the changes made in
 
 'git blame <filename>' will give you line by line info of who changed what 
 
-this is just for testing
+'git reset --hard <SHA>' will move the head to the other commit
 
-this is just for testing 2
+'git revert <SHA>' will create a new commit reversing the actions of the commit that you have done in the past
 
-this is just for testing 3
-
-this is just for testing 4
-
+STAGING AREA:
+=> whenever we make a change in the original document we can see that in the changes 'git status' - modified 
+=> if we want to commit our changes we need to move the above file from the changing area ---> staging area.
+=> we move files from the changing area --> staging area by 'git add .' or 'git add <filepath>/<filename>' 
+=> now we do 'git commit -m "MESSAGE"'
+=> To unstage use use 'git restore --stages <file>'
