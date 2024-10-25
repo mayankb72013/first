@@ -12,3 +12,7 @@ after making the changes if we type 'git diff' we get to see the changes made in
 'git log' allows us to know all the changes we have made in the codebase.
 
 'git log --oneline' shortens the commit id and the entire response of the 'git log'
+
+'git show <commitId>' will give all the changes that have taken place in this commit.
+
+'git blame <filename>' will give you line by line info of who changed what 
