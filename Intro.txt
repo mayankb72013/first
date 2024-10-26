@@ -36,3 +36,10 @@ GITHUB
 => Now we push the commits into this 'git push -u origin main'
 
 => To avoid any authentication settings we can use the token method or SSH id method 
+
+BRANCHING 
+=> When many people are contributing to same code base then it is better to branch out the code from the 'main' and then make additional commits.
+=> Now when we want to push the commits the git makes a single commit for this person and then adds it to the main code-base
+=> To make a branch in git we use command 'git branch <BRANCH-NAME>' 
+=> To check the names of all the branchese present we use command 'git branch'
+=> To change to a particular branch we use 'git checkout <BRANCH-NAME>'
