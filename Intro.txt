@@ -38,9 +38,13 @@ GITHUB
 => To avoid any authentication settings we can use the token method or SSH id method 
 
 BRANCHING 
+
+//MEthod - 1
 => When many people are contributing to same code base then it is better to branch out the code from the 'main' and then make additional commits.
 => Now when we want to push the commits the git makes a single commit for this person and then adds it to the main code-base
 => To make a branch in git we use command 'git branch <BRANCH-NAME>' 
 => To check the names of all the branchese present we use command 'git branch'
 => To change to a particular branch we use 'git checkout <BRANCH-NAME>'
 => To forcefully update the branch in github use the command 'git push -f'
+=> To merge the branch to the main we use command 'git merge origin <BRANCH-NAME>' . This will only merge the branch to main in the local system.
+=> To show this merger in the Github we use the command 'git push'.
