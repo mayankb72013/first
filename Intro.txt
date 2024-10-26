@@ -48,3 +48,4 @@ BRANCHING
 => To forcefully update the branch in github use the command 'git push -f'
 => To merge the branch to the main we use command 'git merge origin <BRANCH-NAME>' . This will only merge the branch to main in the local system.
 => To show this merger in the Github we use the command 'git push'.
+=> The above two should be done after the 'git checkout main'
