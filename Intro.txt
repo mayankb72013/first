@@ -36,3 +36,5 @@ GITHUB
 => Now we push the commits into this 'git push -u origin main'
 
 => To avoid any authentication settings we can use the token method or SSH id method 
+
+this is line 2
