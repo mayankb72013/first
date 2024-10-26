@@ -49,3 +49,11 @@ BRANCHING
 => To merge the branch to the main we use command 'git merge origin <BRANCH-NAME>' . This will only merge the branch to main in the local system.
 => To show this merger in the Github we use the command 'git push'.
 => The above two should be done after the 'git checkout main'
+
+//There is also another method 
+=> We can create a new branch in terminal
+=> push this
+=> create a pull request [on GITHUB]
+=> and click on merge [on GITHUB]
+=> now checkout to main [in local]
+=> now 'git pull' -> will sync the commits in the Github to local [local]
