@@ -27,3 +27,12 @@ STAGING AREA:
 => we move files from the changing area --> staging area by 'git add .' or 'git add <filepath>/<filename>' 
 => now we do 'git commit -m "MESSAGE"'
 => To unstage use use 'git restore --stages <file>'
+
+
+
+GITHUB
+=> Github is a place/server which allows users to contribute to one repository and can be considered the final product of all the contributions
+=> To add the local files to the Github repository we do the command 'git remote add <nameOfRemote = origin> <repositorylink>'
+=> Now we push the commits into this 'git push -u origin main'
+
+=> To avoid any authentication settings we can use the token method or SSH id method 
